@@ -7,11 +7,11 @@ abstract class Race {
     this._dexterity = dexterity;
   }
 
-  getName(): string {
+  get name(): string {
     return this._name;
   }
 
-  getDexterity(): number {
+  get dexterity(): number {
     return this._dexterity;
   }
 
