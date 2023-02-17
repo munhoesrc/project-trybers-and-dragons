@@ -1,4 +1,3 @@
-// import { EnergyType } from '../Energy';
 import interfaceEnergy from '../Energy';
 
 interface Fighter {
