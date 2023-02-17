@@ -1,10 +1,11 @@
-import { EnergyType } from '../Energy';
+// import { EnergyType } from '../Energy';
+import interfaceEnergy from '../Energy';
 
 interface Fighter {
   lifePoints: number;
   strength: number;
   defense: number;
-  energy?: EnergyType;
+  energy?: interfaceEnergy;
 
   attack(enemy: Fighter): void;
   special?(enemy: Fighter): void;
